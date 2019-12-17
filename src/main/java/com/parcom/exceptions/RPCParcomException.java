@@ -1,9 +1,9 @@
 package com.parcom.exceptions;
 
-public class AccessDeniedParcomException extends ParcomException {
+public class RPCParcomException extends ParcomException {
 
 
-    public AccessDeniedParcomException() {
-        super("access.denied");
+    public RPCParcomException() {
+        super("Remote procedure call error");
     }
 }
