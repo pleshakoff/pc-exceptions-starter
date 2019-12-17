@@ -41,7 +41,7 @@ import java.util.Optional;
 
 
 @ControllerAdvice
-public class GlobalDefaultExceptionHandler extends ResponseEntityExceptionHandler {
+public class GlobalDefaultExceptionHandler /*extends ResponseEntityExceptionHandler*/ {
 
     private static final Logger log = LoggerFactory.getLogger(GlobalDefaultExceptionHandler.class);
     private final MessageSource messageSource;
